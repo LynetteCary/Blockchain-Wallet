@@ -1,0 +1,23 @@
+Installing pip dependencies that include:
+
+* Anaconda (https://docs.anaconda.com/anaconda/install/)
+    * python library:	web3 (using terminal window to enter the following command):
+			$ pip install web3
+
+    * python library:	bit  (using terminal window to enter the following command):
+			$ pip install bit)
+
+* XAMPP (includes the PHP environment and dependencies)  (https://www.apachefriends.org/index.html)
+    * Clone and install hd-wallet-derive repo (https://github.com/dan-da/hd-wallet-derive#installation-and-running)
+	Using terminal window, enter the following commands:
+	git clone https://github.com/dan-da/hd-wallet-derive
+	cd hd-wallet-derive
+	php -r "readfile('https://getcomposer.org/installer');" | php
+	php composer.phar install
+
+
+* Geth & Tools (https://geth.ethereum.org/downloads/)
+
+
+* MyCrypto (https://download.mycrypto.com/)
+
